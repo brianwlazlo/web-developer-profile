@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* -------  General Styles ------- */
+
+body {
+  margin: 0;
+	background-color:rgb(240, 237, 237);
+}
+
+header {
+	height: 140px;
+	background-color: lightslategray
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+header h2 {
+	font-family: 'Montserrat', serif;
+	color: white;
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
+  padding-top: 10px;
+}
+
+footer {
+	background-color: lightslategray;
+  padding-top: 10px;
+}
+
+main {
+  background-image: url(pics/food-and-selfie-collage.jpg);
+  background-size: auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+section {
+	padding: 10px 70px;
+  margin: 50px 430px;
+  background-color: rgb(255, 255, 255);
+}
+
+hr {
+  width: auto;
+  height: 2px;
+  background: black;
+  color: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* -------  Type ------- */
+
+h1, h2, h3 {
+  font-family: 'Work Sans', sans-serif;
+	color: rgb(53, 51, 51);
+  text-align: center;
+  font-weight: 600;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 36px; }
+h3 { font-size: 28px; }
+
+p, li {
+ font-family: 'Work Sans', sans-serif;
+ line-height: 1.5em;
+ font-size: 24px;
+ font-weight: bold;
+ margin-bottom: 0;
+ color: rgb(70, 68, 68);
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+  padding-bottom: 10px;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+a:link { color: rgb(27, 24, 199); }
+a:visited { color: rgb(133, 70, 206); }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+a:hover {
+	text-decoration: underline;	
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+	color: white;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+
+
+/* -------  Modifier styles ------- */
+
+.border-top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
